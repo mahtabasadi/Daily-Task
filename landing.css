@@ -1,0 +1,96 @@
+
+
+@media only screen and (min-device-width: 480px) {
+
+
+    .content-main{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        height: 70%;
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        background: #0b2e13 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .main {
+        width: 70%;
+        margin-top: 20%;
+        height: 20%;
+        background-color: #2fd3f4;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    flex_box-small > div {
+        background-color: deeppink;
+        margin: 5%;
+
+    }
+
+
+    .div-strip {
+
+        background-color: rgb(255, 217, 0);
+        text-align: center;
+        width: 40%;
+        height: 50px;
+        position: absolute;
+        border-radius:10%;
+        margin: 3px;
+        font-size: 30px;
+
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        background-color: none;
+        padding-top: 10%;
+        width: 100%;
+        height: 50%;
+        background: #F5F5F5 0% 0% no-repeat padding-box;
+        position: relative;
+    }
+
+
+    .flex-container > div {
+        background-color: #F5F5F5;
+        margin: 8% 5%;
+        padding-top: 10%;
+        text-align: center;
+        width: 30%;
+        height: 10%;
+        font-size: 30px;
+    }
+
+
+
+    div.relative {
+        position: relative;
+        width: 394px;
+        height: 90px;
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 0.5px solid #707070;
+        border-radius: 50%;
+        opacity: 0.77;
+    }
+
+
+    div.absolute {
+        position: absolute;
+        margin:70% 22% 0% 2% ;
+        width: 150%;
+        bottom: 1%;
+        height: 600% ;
+        background: transparent url('image/image.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+
+
+
+}
